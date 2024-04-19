@@ -1,0 +1,14 @@
+In questo breve video andrò a presentare 
+in una prima parte una partita dimostrativa del gioco QUORIDOR sviluppato per la scheda LandTiger.
+QUORIDOR è un gioco da tavolo astratto su scacchiera e questa versione implementa maggior parte delle regole fondamentali.
+
+mentre in una seconda parte  daremo uno sguardo a qualche aspetto più tecnico e quindi implementativo.
+
+1. Struttura dati
+-Il tipo _typePUNTO definisce le coordinate di un pixel sullo schermo LCD
+-Ad un livello logico un po' più  alto troviamo Il tipo _typeCELLA contiene informazioni utili al disegno della cella e flag utili a limitare il movimento del token, la scacchiera di gioco è una matrice 7x7 di tipo _typeCELLA
+-_typeMURO registra tra le altre informazioni chi player l'ha posizionato e il suo orientamento
+-Infine le variabili di tipo _typePLAYER contengono riferimenti sulla posizione del player sul numero di muri a sua disposizione.
+
+3. Ruolo del RIT
+Tra i vari periferici usati dal gioco oltre Joystick e bottoni riveste particolare importanza il timer RIT che ha un periodo di 50 ms. Viene usato in primo luogo per gestire in polling il joystick, in secondo luogo per il debouncing dei tre bottoni coinvolti.

@@ -1,0 +1,13 @@
+.\menu.o: Gioco\Menu.c
+.\menu.o: Gioco\./Menu.h
+.\menu.o: Gioco\./Gioco.h
+.\menu.o: Gioco\./../GLCD/GLCD.h
+.\menu.o: C:\Users\carlo\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h
+.\menu.o: C:\Users\carlo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h
+.\menu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\menu.o: C:\Users\carlo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h
+.\menu.o: C:\Users\carlo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h
+.\menu.o: C:\Users\carlo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h
+.\menu.o: C:\Users\carlo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h
+.\menu.o: C:\Users\carlo\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h
+.\menu.o: Gioco\./../CAN/CAN.h
